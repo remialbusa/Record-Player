@@ -3,15 +3,64 @@
   margin: 0;
 }
 body {
-  background-color: rgb(41, 172, 84);
+  width: 100vw;
+  height: 100vh;
+  background-image: url("bg-gif.gif");
+  background-size: cover;
 }
+
+.card {
+  max-width: 500px;
+  height: 300px;
+  padding: 35px;
+}
+
+.card {
+  max-width: 500px;
+  height: 300px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, .45);
+}
+
+.card {
+  max-width: 500px;
+  height: 300px;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, .45);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+}
+
+.card {
+  max-width: 850px;
+  margin-top: 5%;
+  margin-left: 15%;
+  height: 450px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, .45);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, .25);
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, .25);
+  backdrop-filter: blur(15px);
+}
+
 .player {
-  background-color: #d52f31;
+  background-color: #195463;
   width: 330px;
   height: 190px;
   position: absolute;
   transform: translate(-50%, -50%);
-  left: 50%;
+  left: 35%;
   top: 50%;
   border-radius: 8px;
   box-shadow: 0 8px 0 0 #be272a;
@@ -142,3 +191,4 @@ body {
     transform: rotate(360deg);
   }
 }
+

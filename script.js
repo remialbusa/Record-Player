@@ -23,3 +23,6 @@ btn.addEventListener("click", () => {
 slider.addEventListener("input", (e) => {
   song.volume = Number(e.target.value);
 });
+
+
+
